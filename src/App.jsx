@@ -11,14 +11,16 @@ function App() {
 
   return (
     <>
-      <main className="main-container">
-        <Photo />
-        <Name />
-        <Buttons />
-        <About />
-        <Interests />
-        <Footer />
-      </main>
+      <div className="over-container">
+        <main className="main-container">
+          <Photo />
+          <Name />
+          <Buttons />
+          <About />
+          <Interests />
+          <Footer />
+        </main>
+      </div>
     </>
   )
 }

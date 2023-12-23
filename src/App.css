@@ -6,12 +6,24 @@
   height: 100%;
 } */
 
+.over-container, html {
+  background: #23252C;
+}
+
+.over-container {
+  border-radius: 15px;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-radius: 25px;
   /* border: 2px solid green; */
   gap: 1em;
+  height: 60%;
+  width: 50%;
+  margin: 3rem auto;
 }
 
 .about-container,
@@ -22,12 +34,15 @@
 
 .profile-photo-container {
   text-align: center;
+  border-radius: 25px;
   /* border: 2px solid green; */
 }
 
 .profile-photo {
   margin: 0 auto;
-  width: 20rem;
+  width: 15rem;
+  height: auto;
+  margin-top: 1em;
 }
 
 .name-container {
