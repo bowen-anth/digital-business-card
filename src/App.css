@@ -10,10 +10,6 @@
   background: #23252C;
 }
 
-.over-container {
-  border-radius: 15px;
-}
-
 .main-container {
   display: flex;
   flex-direction: column;
